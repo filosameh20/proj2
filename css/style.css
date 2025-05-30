@@ -11,16 +11,16 @@
     font-family: "Mulish", serif;
 }
 :root{
-    --color-10:#ecf1ff;
+    --color-10:#a3a2a2;
     --font-text:"Teko", serif;    
     --border: 10px;
-    --text: #160918;
+    --text: #ff0000;
 
---text: #07050b;
---background: #f7f4fb;
---primary: #8054be;
---secondary: #ad8ed8;
---accent: #9a71d3;
+--text: #ffffff;
+--background: #ff0000;
+--primary: #7a7a7a;
+--secondary: #bbbbbb;
+--accent: #6d6d6d;
 
 /* --text: #0e180c;
 --background: #f8fcf7;
@@ -88,6 +88,7 @@ body{
     perspective: 4000px;
 
 }
+
 .sections{
     width: 100%;
     /* background-color: var(--p rimary); */
@@ -96,16 +97,16 @@ body{
     width: 100%;
     height: 100vh;
     position: relative;
-    /* background-image: url(/img/bed\ 19.jpg); */
+    /* background-image: url(/img/big.jpeg); */
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
-    background-color: var(--color-10);
+    background-color: rgb(255, 255, 255);
 }
 .home nav{
     width: 100%;
     height: 80px;
-    background-color:rgb(9, 9, 10);
+    background-color:rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -116,7 +117,7 @@ body{
 .logo{
     width: 70px;
     height: 70px;
-    color: #F2F2F2;
+    color: #747474;
     display: flex;
     align-items: center;
     position: relative;
@@ -137,7 +138,7 @@ body{
 }
 .logo img{
     width: 100%;
-    height: 50%;
+    height: 100%;
     /* z-index: 1; */
 }
 .logo::before{
@@ -147,7 +148,7 @@ body{
     right: 0;
     width: 100%;
     height: 100%;
-    background-color: rgb(9, 9, 10);
+    background-color: rgb(255, 255, 255);
     animation: showRight 1s ease forwards;
     animation-delay: .4s;
 }
@@ -167,7 +168,7 @@ body{
     right: 350px;
     width: 600px;
     height: 70px;
-    background-color: rgb(9, 9, 10);
+    background-color: rgb(255, 255, 255);
     animation: showRight 1s ease forwards;
     animation-delay: .8s;
     z-index: 1;
@@ -181,7 +182,7 @@ body{
     position: relative;
 }
 ul a{
-    color: var(--color-10);
+    color: rgb(0, 0, 0);
     position: relative;
     height: 100%;
     display: flex;
@@ -193,7 +194,7 @@ ul a{
     position: absolute;
     top: 20px;
     transition: .5s linear;
-    color: var(--color-10);
+    color: rgb(12, 12, 12);
 }
 .home nav .sec ul a p{
     opacity: 0;
@@ -224,7 +225,7 @@ ul a{
     position: absolute;
     right: 0;
     bottom: 0;
-    background-color: var(--primary);
+    background-color: black;
     width: 0;
     height: 2px;
     animation: borderMove 1s;
@@ -235,7 +236,7 @@ ul a{
     position: absolute;
     right: 0;
     bottom: 0;
-    background-color: var(--primary);
+    background-color: rgb(0, 0, 0);
     width: 0;
     height: 2px;
 }
@@ -259,7 +260,7 @@ ul a{
     content: "";
     position: absolute;
     left: 0;
-    background-color: var(--primary);
+    background-color: rgb(0, 0, 0);
     width: 0;
     height: 2px;
 }
@@ -272,7 +273,7 @@ ul a{
     content: "";
     position: absolute;
     left: 0;
-    background-color: var(--primary);
+    background-color: rgb(0, 0, 0);
     width: 0;
     height: 2px;
 }
@@ -316,12 +317,12 @@ ul a{
     right: 7px;
     top: 30px;
     border: 4px solid transparent;
-    border-top-color: #fff;
+    border-top-color: #000000;
     transition: .5s;
 }
 .sec .page:hover::before,
 .sec .asasna:hover::before{
-    border-bottom-color: #fff;
+    border-bottom-color: #ec1f1f;
     border-top-color: transparent;
     top: 25px;
 }
@@ -329,7 +330,7 @@ ul a{
 .list-page{
     width: 50px;
     height: 50px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.774);
     display: flex;
     position: absolute;
     top: 150px;
@@ -357,13 +358,13 @@ ul a{
 .list-page div{
     width: 45%;
     margin: 0 5px;
-    color: #666;
+    color: #ff8383;
     
 }
 .list-page div div{
     margin-top: 10px;
     position: relative;
-    color: #fff;
+    color: #ffffff;
     font-family: "Teko", serif;
     font-size: 20px;
 }
@@ -380,13 +381,13 @@ ul a{
 .list-page h4{
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
-    color: rgb(255, 201, 101);
+    color: rgb(255, 238, 0);
 }
 
 .list-asas{
     width: 0;
     height: 250px;
-    background-color: var(--primary);
+    background-color: rgba(124, 124, 124, 0.74);
     position: absolute;
     left: 45%;
     top: 75px;
@@ -417,7 +418,7 @@ ul a{
 
 }
 .list-asas div:hover p{
-    color: var(--color-10);
+    color: white;
 }
 .list-asas div img{
     width: 100%;
@@ -446,7 +447,7 @@ ul a{
     right: 0;
     width: 100%;
     height: 100%;
-    background-color: rgb(9, 9, 10);
+    background-color: rgb(255, 255, 255);
     animation: showRight 1s ease forwards;
     animation-delay: 1.2s;
     z-index: 1;
@@ -464,7 +465,7 @@ ul a{
 }
 .moreIcon ul a i{
     font-size: 20px;
-    color: var(--color-10);
+    color: black;
 }
 .moreIcon .search input{
     position: absolute;
@@ -475,8 +476,8 @@ ul a{
     border-radius: var(--border);
     border: none;
     transition: .5s;
-    background-color: var(--color-10);
-    color: var(--text);
+    background-color: rgb(202, 202, 202);
+    color: blue;
 }
 .moreIcon .search:hover input{
     width: 180px;
@@ -504,7 +505,7 @@ ul a{
     top: 0;
     right: 0;
     opacity: 0;
-    color: #fff;
+    color: #ffffff;
     font-weight: bold;
     text-align: center;
     width: 20px;
@@ -523,13 +524,14 @@ ul a{
 .dis-count{
     width: 100%;
     height: 35px;
-    background-color:var(--primary);
+    background-color:rgb(0, 0, 0);
     padding-top: 7px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
 }
+/* /////////////////////////////////////////////////////////////////////////// */
 .dis-count a::before,
 .dis-count p::before{
     content: "";
@@ -538,7 +540,7 @@ ul a{
     right: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--primary);
+    background-color: black;
     animation: showRight 1s ease forwards;
     animation-delay: 1.2s;
     z-index: 1;
@@ -546,6 +548,7 @@ ul a{
 .dis-count a,
 .dis-count p{
     position: relative;
+    color: rgb(255, 255, 255);
 }
 .dis-count a{
     transition: .5s;
@@ -586,7 +589,7 @@ ul a{
 .home-cont h3{
     font-family: "Teko", serif;
     font-weight: 700;
-    color: var(--text);
+    color: rgb(122, 122, 122);
     font-size: 27px;
     position: relative;
 }
@@ -597,7 +600,7 @@ ul a{
     right: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--color-10);
+    background-color: rgb(255, 255, 255);
     animation: showRight 1s ease forwards;
     animation-delay: .4s;
     z-index: 1;
@@ -613,7 +616,7 @@ ul a{
     right: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--color-10);
+    background-color: white;
     animation: showRight 1s ease forwards;
     animation-delay: .6s;
     z-index: 1;
@@ -633,7 +636,7 @@ ul a{
     right: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--color-10);
+    background-color: white;
     animation: showRight 1s ease forwards;
     animation-delay: .8s;
     z-index: 1;
@@ -643,7 +646,7 @@ ul a{
     width: 120px;
     height: 40px;
     border: none;
-    background-color: var(--primary);
+    background-color: rgb(0, 0, 0);
     transition: .5s;
     position: relative;
     z-index: 1;
@@ -664,13 +667,13 @@ ul a{
 }
 .home-cont button:hover{
     cursor: pointer;
-    color: var(--primary);
+    color: rgb(122, 122, 122);
     box-shadow: 0 0 10px 5px var(--primary);
 }
 .home-cont button:hover::before{
     width: 120px;
     height: 40px;
-    background-color: var(--text);
+    background-color: white;
 }
 .home-cont button::after{
     content: "";
@@ -679,7 +682,7 @@ ul a{
     right: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--color-10);
+    background-color: white;
     animation: showRight 1s ease forwards;
     animation-delay: .4s;
     z-index: 1;
@@ -696,7 +699,6 @@ ul a{
     width: 500px;
     height: 500px;
     border-radius: 50%;
-    border: 5px solid var(--accent);
     position: relative;
     top: 20px;
     right: 100px;
@@ -712,13 +714,13 @@ ul a{
     right: 100px;
     width: 100%;
     height: 100%;
-    background-color: var(--color-10);
+    background-color: rgb(255, 255, 255);
     animation: showRight 1s ease forwards;
     animation-delay: .4s;
     z-index: 1;
 }
 .home-cont .home-img img:hover{
-    border-radius: 0;
+    border-radius: 40px;
 }
 
 @keyframes showRight {
@@ -859,7 +861,7 @@ ul a{
     position: relative;
 }
 .offer-cont::before{
-    content: "";
+    content: "50";
     position: absolute;
     top: 50%;
     left: -20px;
@@ -871,7 +873,7 @@ ul a{
     border-right: transparent;
 }
 .offer-cont::after{
-    content: "";
+    content: "50";
     position: absolute;
     top: 50%;
     right: -20px;
@@ -972,7 +974,7 @@ ul a{
     font-family: cursive;
 }
 .parent .bottom .price-product::after{
-    content: "$700";
+    content: "$999";
     font-size: .6em;
     text-decoration: line-through;
     position: absolute;
@@ -1063,7 +1065,7 @@ ul a{
     transition: .5s;
 }
 .customer::before{
-    content: "";
+    content: "$500";
     position: absolute;
     top: 50%;
     left: 100px;
@@ -1075,7 +1077,7 @@ ul a{
     border-right: transparent;
 }
 .customer::after{
-    content: "";
+    content: "500";
     position: absolute;
     top: 50%;
     right: 100px;
@@ -1301,7 +1303,7 @@ ul a{
 .footer{
     width: 100%;
     /* height: 600px; */
-    background-color: var(--text);
+    background-color: black;
 }
 .footer footer{
     width: 90%;
@@ -1419,7 +1421,7 @@ ul a{
         transform: scale(1.2);
     }99%{
         
-        color: #000;
+        color: #ffffff;
         transform: scale(1.2);
     }
 }
